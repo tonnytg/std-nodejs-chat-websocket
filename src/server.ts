@@ -1,11 +1,8 @@
 import express from 'express';
-const app = express()
+import { routes } from './routes'
 
-app.get('/', (request, response) => {
-    return response.json({
-        message: "Hello Friend!"
-    })
-})
+const app = express()
+app.use(routes)
 
 app.listen(3005, () => {
     console.log("http://localhost:3005")
