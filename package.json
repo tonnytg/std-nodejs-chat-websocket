@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/tonnytg/std-nodejs-chat-websocket#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "mysql2": "^2.2.5",
     "reflect-metadata": "^0.1.13",
     "sequelize": "^6.6.2"
